@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+.homebody {
+  background-color: #121212;
+  min-height: 100vh;
+  padding: 20px;
+  font-size: 30px;
+  color: #ffff;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+.homebody h1 {
+  display: flex;
+  justify-content: center;
+  margin-block-start: 0px;
+  margin-block-end: 20px;
+}
+.homebody p {
+  width: calc(100% - 200px);
+  background-color: #353535;
+  font-size: 24px;
+  border-radius: 30px;
+}
+input {
+  background: none;
+  border: 2px #797979 solid;
+  border-radius: 20px;
+  padding: 10px;
+  color: #ffff;
+  width: 80%;
+}
+input::placeholder {
+  color: #ffff;
+}
+button {
+  background-color: #5a9367;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 40px;
+  margin-top: 20px;
+}
+.notesbody {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 5px 100px 5px 100px;
+}
+@media screen and (max-width: 600px) {
+  .notesbody {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+    padding: 5px 20px 5px 20px;
+  }
+  .homebody p {
+    width: calc(100% - 40px);
+    font-size: 16px;
+  }
+  .homebody h1 {
+    font-size: 30px;
+  }
+}
