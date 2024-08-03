@@ -21,7 +21,7 @@ app.use((req, res, next) => {
 });
 
 const connectString =
-  "mongodb+srv://anhkim096583:jxSRWX3wQ2HGrgR4@todo.fn6qfky.mongodb.net/tododb?retryWrites=true&w=majority";
+  "mongodb+srv://anhkim096583:jxSRWX3wQ2HGrgR4@todo.fn6qfky.mongodb.net/todo?retryWrites=true&w=majority";
 
 const schema = new mongoose.Schema({
   id: Number,
